@@ -2,6 +2,7 @@ import express from "express";
 import validator from "validator";
 import users from "../models/users.js";
 
+
 const router = express.Router();
 
 router.get("/", async (req, res) => {
