@@ -6,8 +6,6 @@ const  TaskStats=new Schema({
     totalPendingTask:{type:Number,default:0},
     totalCreateTask:{type:Number,default:0},
     totalDeleteTask:{type:Number,default:0},
-
 },{timestamps:true})
-
 const taskStats=mongoose.model("TaskStats",TaskStats)
 export default taskStats;

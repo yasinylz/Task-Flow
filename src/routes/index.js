@@ -6,7 +6,6 @@ import task from "./taskRoutes.js"
 
 router.use("/user",user)
 router.use("/task",task)
-
 export default router;
 
 

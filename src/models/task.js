@@ -8,10 +8,6 @@ const TaskSchema=new Schema({
     status:{type:String,enum:["pannding","success","deleted","reject"],default:"pannding"},
     taskDate:{type:Date,required:true}
 
-
-
-
-
 },{timestamps:true})
 const task=mongoose.model("Task",TaskSchema)
 export default task;

@@ -12,5 +12,4 @@ app.use(express.urlencoded({extended:true}))
 app.use("/api",index)
 dbConnect();
 app.use(cros())
-
 app.listen(5000,()=>{console.log("listening")})
